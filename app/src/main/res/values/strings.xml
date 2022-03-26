@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Test Your Brain</string>
+    <string name="sign_in">Sign In</string>
+    <string name="_0">0</string>
+    <string name="didn_t_recieve_otp">Didn\'t recieve OTP?</string>
+    <string name="verify_your_number">Verify Your Number</string>
+    <string name="resend_otp_in">You can Resend the OTP in</string>
+    <string name="resend">Resend</string>
+    <string name="resend_code">RESEND CODE</string>
+    <string name="otp_verification">OTP VERIFICATION</string>
+    <string name="verify_otp_sent_to_your_mobile_number">Verify OTP sent to your mobile number</string>
+    <string name="back">Back</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="_12345678798">1234567890</string>
+    <string name="you_can_resend_the_otp_in">You can Resend the OTP in</string>
+    <string name="didt_recive_code">Didn\'t receive the code?</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="logo">logo</string>
+    <string name="sign_out">Sign out</string>
+
+    <string name="a">A sort of malware computer program that keeps replicating itself and can easily get diffused into other computers through internet is known as</string>
+    <string name="a_1">Virus</string>
+    <string name="a_2">Worms</string>
+    <string name="a_3">Trojans</string>
+    <string name="a_4">Spyware</string>
+    <string name="a_correct">Worms</string>
+
+    <string name="b">Which among the following is used in creating a chart?</string>
+    <string name="b_1">Chart wizard</string>
+    <string name="b_2">Computing wizard</string>
+    <string name="b_3">Calculating wizard</string>
+    <string name="b_4">Data wizard</string>
+    <string name="b_correct">Chart wizard</string>
+
+    <string name="c">If you need to select all the contents of MS Word, which command will you give?</string>
+    <string name="c_1">Ctrl + A</string>
+    <string name="c_2">Ctrl + B</string>
+    <string name="c_3">Ctrl + C</string>
+    <string name="c_4">Ctrl + D</string>
+    <string name="c_correct">Ctrl + A</string>
+
+    <string name="d">If you restart your computer by switching it off (i.e. power cut), it is known as</string>
+    <string name="d_1">Soft boot</string>
+    <string name="d_2">Cold boot</string>
+    <string name="d_3">Warm boot</string>
+    <string name="d_4">A &amp; C</string>
+    <string name="d_correct">Cold boot</string>
+
+    <string name="e">The Third Generation Computer used</string>
+    <string name="e_1">Transistors</string>
+    <string name="e_2">Integrated circuit</string>
+    <string name="e_3">Vacuum tube</string>
+    <string name="e_4">Chip</string>
+    <string name="e_correct">Integrated circuit</string>
+
+    <string name="f">Which among the following is the shortcut key for Help in your computer system?</string>
+    <string name="f_1">F1</string>
+    <string name="f_2">F2</string>
+    <string name="f_3">F9</string>
+    <string name="f_4">Ctrl + F</string>
+    <string name="f_correct">F1</string>
+
+    <string name="g">Who among the following had first invented the first electronic digital computer?</string>
+    <string name="g_1">John Vincent Atanasoff</string>
+    <string name="g_2">Greg Chesson</string>
+    <string name="g_3">Charles Babbage</string>
+    <string name="g_4">Jack Dorsey</string>
+    <string name="g_correct">John Vincent Atanasoff</string>
+
+    <string name="h">Who among the following is popular as "Mother of Internet"</string>
+    <string name="h_1">Ada Lovelace</string>
+    <string name="h_2">Grace Hopper</string>
+    <string name="h_3">Radia Perlman</string>
+    <string name="h_4">Anita Borg</string>
+    <string name="h_correct">Radia Perlman</string>
+
+    <string name="i">Which among the following was the first computer virus?</string>
+    <string name="i_1">Conficker</string>
+    <string name="i_2">I Love you</string>
+    <string name="i_3">Melissa</string>
+    <string name="i_4">Elk</string>
+    <string name="i_correct">Elk</string>
+
+    <string name="j">Which among the following correctly explains the term ‘internet?’</string>
+    <string name="j_1">Internet network</string>
+    <string name="j_2">International network</string>
+    <string name="j_3">Intercontinental network</string>
+    <string name="j_4">Information network</string>
+    <string name="j_correct">International network</string>
+
+</resources>

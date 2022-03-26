@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg_options.xml" value="0.155" />
+        <entry key="app/src/main/res/drawable/border.xml" value="0.155" />
+        <entry key="app/src/main/res/drawable/btn_otp.xml" value="0.155" />
+        <entry key="app/src/main/res/drawable/btn_primary.xml" value="0.155" />
+        <entry key="app/src/main/res/drawable/btn_primary_disabled.xml" value="0.155" />
+        <entry key="app/src/main/res/drawable/btn_primary_selector.xml" value="0.155" />
+        <entry key="app/src/main/res/drawable/et_style.xml" value="0.155" />
+        <entry key="app/src/main/res/drawable/ic_arrow_back.xml" value="0.155" />
+        <entry key="app/src/main/res/drawable/ic_golden_ribbon.xml" value="0.155" />
+        <entry key="app/src/main/res/drawable/ic_signout.xml" value="0.155" />
+        <entry key="app/src/main/res/drawable/top_conner_radius_solid.xml" value="0.155" />
+        <entry key="app/src/main/res/layout/activity_feedback.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2462962962962963" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2462962962962963" />
+        <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.24652455977757182" />
+        <entry key="app/src/main/res/layout/activity_result.xml" value="0.24652455977757182" />
+        <entry key="app/src/main/res/layout/activity_welcome_screen.xml" value="0.2462962962962963" />
+        <entry key="app/src/main/res/layout/bg_options.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/feedback_card_item.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/feedback_review_custom.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/items_list_layout_card_item.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/loading_dialog_layout.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

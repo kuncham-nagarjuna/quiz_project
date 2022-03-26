@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="colorPrimary">#374151</color>
+    <color name="colorPrimaryDark">#171010</color>
+    <color name="colorAccent">#E5C86F</color>
+    <color name="grey">#B2626262</color>
+    <color name="home_bg">#20252B</color>
+    <color name="home_card_bg">#2C3137</color>
+    <color name="gold">#D7B666</color>
+    <color name="disable_gold">#88EDD9A7</color>
+    <color name="text_heading_color">#D1D5DB</color>
+    <color name="text_color">#E5E7EB</color>
+    <color name="edittext_bg_color">#374151</color>
+    <color name="edittext_text_color">#A0AEC0</color>
+    <color name="text_color_light">#d8d8d8</color>
+    <color name="text_color_subtle">#718096</color>
+
+    <color name="india_Saffron">#FF9933</color>
+    <color name="india_green">#138808</color>
+    <color name="india_navy_blue">#000080</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="green">#8BC34A</color>
+    <color name="orange">#FF9800</color>
+
+    <color name="textColor3">#64748B</color>
+
+    <!--colors for profile-->
+    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+    <color name="red">#F44336</color>
+</resources>
