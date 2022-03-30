@@ -25,6 +25,7 @@ public class SessionManager {
     public static final String KEY_NAME = "name";
     public static final String KEY_COUNTRY_CODE = "country_code";
     public static final String KEY_PHONE = "phone";
+    public static final String KEY_Login_time = "time";
 
     // Constructor
     public SessionManager(Context context) {
@@ -48,6 +49,16 @@ public class SessionManager {
 
         editor.putString(KEY_NAME, name);
         editor.commit();
+    }
+
+
+    public void set_login_time(String time) {
+        editor.putString(KEY_Login_time, time);
+        editor.commit();
+    }
+
+    public String get_login_time() {
+        return pref.getString(KEY_Login_time, "time");
     }
 
     public String get_phone() {

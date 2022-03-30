@@ -1,7 +1,5 @@
 package com.quiz.quiz;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -15,7 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.material.textfield.TextInputLayout;
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -23,7 +21,7 @@ import java.util.Date;
 
 public class ResultActivity extends AppCompatActivity {
 
-    String get_result="", msg="";
+    String get_result = "", msg = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,17 +37,17 @@ public class ResultActivity extends AppCompatActivity {
         if (i.hasExtra("result")) {
             Log.e("has", "yes");
             get_result = i.getStringExtra("result");
-        }else {
+        } else {
             Log.e("has", "no");
         }
 
-        result.setText(get_result+" / 10");
-        if (Integer.parseInt(get_result) >= 7){
-            msg = "Congratulations, You won!";
-        }else if (Integer.parseInt(get_result) <= 5){
-            msg = "Too bad, You won only";
-        }else {
-            msg = "Please improve, You won only";
+        result.setText(get_result + "");
+        if (Integer.parseInt(get_result) >= 7) {
+            msg = "Congratulations!\nYou scored";
+        } else if (Integer.parseInt(get_result) < 5) {
+            msg = "Too bad\nYou scored only";
+        } else {
+            msg = "Congratulations!\nPlease improve your score";
         }
         result_heading.setText(msg);
 
@@ -89,7 +87,7 @@ public class ResultActivity extends AppCompatActivity {
                     intent.putExtra("test_date", date);
                     startActivity(intent);
                     alert.dismiss();
-                }else {
+                } else {
                     Toast.makeText(getApplicationContext(), "Submit Feedback", Toast.LENGTH_SHORT).show();
                 }
             });
@@ -99,7 +97,7 @@ public class ResultActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent intent = new Intent(ResultActivity.this,MainActivity.class);
+        Intent intent = new Intent(ResultActivity.this, MainActivity.class);
         startActivity(intent);
     }
 }

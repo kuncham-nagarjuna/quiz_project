@@ -88,4 +88,74 @@
     <string name="j_4">Information network</string>
     <string name="j_correct">International network</string>
 
+    <string name="k">Which among the following is also known as Information Highway?</string>
+    <string name="k_1">Internet</string>
+    <string name="k_2">Intranet</string>
+    <string name="k_3">LAN</string>
+    <string name="k_4">Web browser</string>
+    <string name="k_correct">Internet</string>
+
+    <string name="l">Which one of the following states, first created telephone directory on internet?</string>
+    <string name="l_1">Tamil Nadu</string>
+    <string name="l_2">Sikkim</string>
+    <string name="l_3">Kerala</string>
+    <string name="l_4">Karnataka</string>
+    <string name="l_correct">Kerala</string>
+
+    <string name="m">Unsolicited email is known as</string>
+    <string name="m_1">Phishing</string>
+    <string name="m_2">Spam</string>
+    <string name="m_3">Malware</string>
+    <string name="m_4">Eware</string>
+    <string name="m_correct">Spam</string>
+
+    <string name="n">The computer application that integrates texts, sound, image, graphics, videos or other sort of animation, is known as</string>
+    <string name="n_1">Integrated media</string>
+    <string name="n_2">Entertaining media</string>
+    <string name="n_3">Multimedia</string>
+    <string name="n_4">Hypermedia</string>
+    <string name="n_correct">Multimedia</string>
+
+    <string name="o">1 Megabyte (Mb) =</string>
+    <string name="o_1">1,024 kb</string>
+    <string name="o_2">1,000 kb</string>
+    <string name="o_3">1,200 kb</string>
+    <string name="o_4">1,225 kb</string>
+    <string name="o_correct">1,024 kb</string>
+
+    <string name="p">Who among the following has developed the Perl programing language?</string>
+    <string name="p_1">Larry Wall</string>
+    <string name="p_2">Guido van Rossum</string>
+    <string name="p_3">Joe Armstrong</string>
+    <string name="p_4">Yukihiro Matsumoto</string>
+    <string name="p_correct">Larry Wall</string>
+
+    <string name="q">Who among the following has designed the JavaScript programing language?</string>
+    <string name="q_1">Rasmus Lerdorf</string>
+    <string name="q_2">Guido van Rossum</string>
+    <string name="q_3">Brendan Eich</string>
+    <string name="q_4">James Gosling</string>
+    <string name="q_correct">Brendan Eich</string>
+
+    <string name="r">Who among the following is more popular as the first computer programmer?</string>
+    <string name="r_1">Ada Lovelace</string>
+    <string name="r_2">Adam Osborne</string>
+    <string name="r_3">Adi Shamir</string>
+    <string name="r_4">Alain Glavieux</string>
+    <string name="r_correct">Ada Lovelace</string>
+
+    <string name="s">Who among the following first coined the term "wiki?"</string>
+    <string name="s_1">Julian Assange</string>
+    <string name="s_2">Rafael Correa</string>
+    <string name="s_3">Ward Cunningham</string>
+    <string name="s_4">Greg Chesson</string>
+    <string name="s_correct">Ward Cunningham</string>
+
+    <string name="t">Which among the following correctly defines the term data processing?</string>
+    <string name="t_1">Data input in computer</string>
+    <string name="t_2">Data output from computer</string>
+    <string name="t_3">A &amp; B both</string>
+    <string name="t_4">To retrieve, transform, or classify information in a computer</string>
+    <string name="t_correct">To retrieve, transform, or classify information in a computer</string>
+
 </resources>

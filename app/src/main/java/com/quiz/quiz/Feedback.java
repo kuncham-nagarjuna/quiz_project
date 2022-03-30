@@ -1,13 +1,12 @@
 package com.quiz.quiz;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.WindowManager;
-import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class Feedback extends AppCompatActivity {
 
@@ -27,7 +26,7 @@ public class Feedback extends AppCompatActivity {
         get_score = intent.getStringExtra("result");
         get_date = intent.getStringExtra("test_date");
 
-        FeedbackData[] feedbackData = new FeedbackData[] {
+        FeedbackData[] feedbackData = new FeedbackData[]{
                 new FeedbackData(get_review, get_date, get_score),
                 new FeedbackData("Improve level of hardness. so that student can learn well as well as improve their brain", "22, Mar 22 05:12 pm", "9"),
                 new FeedbackData("Please increase the time.", "22, Mar 22 05:12 pm", "6"),

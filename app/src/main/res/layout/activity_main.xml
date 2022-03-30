@@ -63,7 +63,7 @@
             android:gravity="start"
             android:letterSpacing=".1"
             android:lineSpacingExtra="3dp"
-            android:text="1. You have only 10 minutes to complete the test.\n\n2. If you are not submmited the test within the given time it automatically submits your test.\n\n3. Provide your test experince in form of feedback."
+            android:text="1. You have only 20 minutes to complete the test.\n\n2. If you are not submmited the test within the given time it automatically submits your test.\n\n3. Provide your test experince in form of feedback."
             android:textColor="@color/white"
             android:textSize="16sp" />
 

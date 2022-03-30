@@ -1,68 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
     android:background="@color/colorPrimary"
-    android:gravity="center"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Result"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/prize_cup" />
 
     <TextView
         android:id="@+id/result_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Congratulations, You won!"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:lineSpacingExtra="20dp"
+        android:text="Congratulations!\nPlease improve your score"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
         android:textStyle="bold" />
 
-    <RelativeLayout
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:gravity="center">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:contentDescription="@string/logo"
-            android:src="@drawable/realistic_ic" />
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="10 / 10"
-            android:paddingBottom="30dp"
-            android:layout_centerInParent="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="24sp"
+            android:text="10"
+            android:textColor="@color/white"
+            android:textSize="36sp"
             android:textStyle="bold" />
 
-    </RelativeLayout>
+        <TextView
+            android:id="@+id/result1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" / 20"
+            android:textColor="@color/colorAccent"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/feedback"
-        android:layout_width="180dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="32dp"
         android:background="@drawable/btn_primary_selector"
-        android:padding="10dp"
-        android:textAllCaps="false"
+        android:drawableStart="@drawable/ic_share"
+        android:drawablePadding="30dp"
+        android:padding="20dp"
         android:text="Submit Feedback"
-        android:textColor="@color/edittext_bg_color"
-        android:textSize="15sp" />
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go back for Home page"
         android:padding="10dp"
+        android:text="Go back for Home page"
+        android:textColor="@color/white"
         android:textSize="14sp"
-        android:textColor="@color/white" />
+        android:drawablePadding="10dp" />
 
 </LinearLayout>

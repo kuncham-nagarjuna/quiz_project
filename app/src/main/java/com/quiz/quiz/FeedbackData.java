@@ -16,7 +16,7 @@ public class FeedbackData {
         return score;
     }
 
-    public FeedbackData(String review, String date, String scrore){
+    public FeedbackData(String review, String date, String scrore) {
         this.review = review;
         this.date = date;
         this.score = scrore;

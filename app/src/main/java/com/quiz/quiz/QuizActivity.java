@@ -42,6 +42,16 @@ public class QuizActivity extends AppCompatActivity {
             new Question(R.string.h, R.string.h_1, R.string.h_2, R.string.h_3, R.string.h_4, R.string.h_correct),
             new Question(R.string.i, R.string.i_1, R.string.i_2, R.string.i_3, R.string.i_4, R.string.i_correct),
             new Question(R.string.j, R.string.j_1, R.string.j_2, R.string.j_3, R.string.j_4, R.string.j_correct),
+            new Question(R.string.k, R.string.k_1, R.string.k_2, R.string.k_3, R.string.k_4, R.string.k_correct),
+            new Question(R.string.l, R.string.l_1, R.string.l_2, R.string.l_3, R.string.l_4, R.string.l_correct),
+            new Question(R.string.m, R.string.m_1, R.string.m_2, R.string.m_3, R.string.m_4, R.string.m_correct),
+            new Question(R.string.n, R.string.n_1, R.string.n_2, R.string.n_3, R.string.n_4, R.string.n_correct),
+            new Question(R.string.o, R.string.o_1, R.string.o_2, R.string.o_3, R.string.o_4, R.string.o_correct),
+            new Question(R.string.p, R.string.p_1, R.string.p_2, R.string.p_3, R.string.p_4, R.string.p_correct),
+            new Question(R.string.q, R.string.q_1, R.string.q_2, R.string.q_3, R.string.q_4, R.string.q_correct),
+            new Question(R.string.r, R.string.r_1, R.string.r_2, R.string.r_3, R.string.r_4, R.string.r_correct),
+            new Question(R.string.s, R.string.s_1, R.string.s_2, R.string.s_3, R.string.s_4, R.string.s_correct),
+            new Question(R.string.t, R.string.t_1, R.string.t_2, R.string.t_3, R.string.t_4, R.string.t_correct),
     };
 
     @Override
@@ -81,7 +91,7 @@ public class QuizActivity extends AppCompatActivity {
             isChecking = true;
         });
 
-        countDownTimer = new CountDownTimer(600000, 1000) {
+        countDownTimer = new CountDownTimer(1200000, 1000) {
             public void onTick(long millisUntilFinished) {
                 Log.e("millisUntilFinished--", String.valueOf(millisUntilFinished));
                 Log.e("counter--", String.valueOf(counter));

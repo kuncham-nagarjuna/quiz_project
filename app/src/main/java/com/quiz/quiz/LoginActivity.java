@@ -28,6 +28,8 @@ import com.google.firebase.auth.PhoneAuthOptions;
 import com.google.firebase.auth.PhoneAuthProvider;
 import com.hbb20.CountryCodePicker;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 public class LoginActivity extends AppCompatActivity {
@@ -48,6 +50,7 @@ public class LoginActivity extends AppCompatActivity {
     private String mVerificationId;
     private PhoneAuthProvider.ForceResendingToken mResendToken;
     private EditText otp1, otp2, otp3, otp4, otp5, otp6;
+    Date current_date, added_time;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -123,8 +126,14 @@ public class LoginActivity extends AppCompatActivity {
 
         sessionManager.createLoginSession(get_country_code, get_phone);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
         Toast.makeText(getApplicationContext(), "Login Success", Toast.LENGTH_SHORT).show();
+
+        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+        //            SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+        Date date = new Date();
+        String da = sdf.format(date);
+        sessionManager.set_login_time(da);
+        Log.e("login_time", sessionManager.get_login_time());
 
         Intent login_home = new Intent(getApplicationContext(), MainActivity.class);
         progressDialog.dismiss();
@@ -270,7 +279,7 @@ public class LoginActivity extends AppCompatActivity {
         get_country_code = country_code.getSelectedCountryCode();
         get_phone = phone.getText().toString().trim();
 
-        Log.e("data--", get_country_code+"--"+get_phone);
+        Log.e("data--", get_country_code + "--" + get_phone);
 
         if (get_phone.length() != 10) {
             phone.setError("Enter Valid 10 digit Mobile Number");
